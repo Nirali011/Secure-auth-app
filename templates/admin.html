@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Panel</title>
+    <style>
+        body {
+            background-color: #020617;
+            font-family: Arial;
+            color: white;
+        }
+        .box {
+            width: 600px;
+            margin: 120px auto;
+            background: #0f172a;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #475569;
+            padding: 10px;
+        }
+        th {
+            background: #1e293b;
+        }
+        a {
+            color: #f87171;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="box">
+    <h2>Admin Panel</h2>
+
+    <table>
+        <tr>
+            <th>Username</th>
+            <th>Email</th>
+            <th>Role</th>
+        </tr>
+
+        {% for user in users %}
+        <tr>
+            <td>{{ user.username }}</td>
+            <td>{{ user.email }}</td>
+            <td>{{ user.role }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+    <br>
+    <a href="/logout">Logout</a>
+</div>
+
+</body>
+</html>
