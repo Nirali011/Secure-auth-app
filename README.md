@@ -29,6 +29,34 @@ During this internship, I learned how to design and implement secure login syste
 
 ## Detailed Security architecture is documented in SECURITY_DESIGN.md
 
+## 📂 File & Folder Structure
+
+secure-auth-app/
+        |___app.py
+        |___database.db
+        |___requirement.txt
+        |___README.md
+        |___SECURITY_DESIGN.md
+        |
+        |_templates/
+        |     |__login.html
+        |     |__signup.html
+        |     |__dashboard.html
+        |     |__admin.html
+        |
+        |_static/
+        |   |__style.css
+        |
+        |_Screenshots/
+        |     |__login.png
+        |     |__signup.png
+        |     |__user_db.png
+        |     |__admin_db.png
+        |     |__access_denied.png
+        |     |__weak_pass.png
+        |     |__hash.png
+        |     |__server_runing.png   
+
 ## 🚀 How to Run the Project
 ```bash
 pip install -r requirements.txt
