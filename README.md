@@ -26,16 +26,6 @@ authentication, authorization, and common web security protections.
 5. Role-based access is applied
 6. Logout clears session
 
-## 📸 Screenshots
-![Login] (Screenshots/login.png)
-![Signup] (Screenshots/SignUp.png)
-![User Dashboard] (Screenshots/U_db.png)
-![Admin Panel] (Screenshots/A_db.png)
-![Database] (Screenshots/database.png)
-![Password Hash] (Screenshots/hash.png)
-![Access Denied] (Screenshots/access.png)
-![Weak Password] (Screenshots/weak.png)
-
 ## Detailed Security architecture is documented in SECURITY_DESIGN.md
 
 ## 🚀 How to Run the Project
