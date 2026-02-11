@@ -1,8 +1,9 @@
 # 🔐 Secure Auth App (Flask)
 
 ## 📌 Project Overview
-This project is a secure web application developed to demonstrate
-authentication, authorization, and common web security protections.
+        This project is a secure web-based authentication system developed using Flask.It demonstrates industry-standard security practices including authentication, authorization, password  hashing, secure session handling, and protected database operations.
+        This project was built during the Cryptonic Area Virtual Internship Program.
+During this internship, I learned how to design and implement secure login systems, apply role-based access control, handle sessions securely, and structure a professional GitHub project suitable for real-world applications.
 
 ## 🛠️ Technologies Used
 - Python (Flask)
